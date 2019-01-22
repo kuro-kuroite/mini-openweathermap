@@ -36,5 +36,12 @@
     "path": "^0.12.7",
     "prettier": "^1.15.3"
   },
-  "dependencies": {}
+  "dependencies": {
+    "@babel/polyfill": "^7.2.5",
+    "axios": "^0.18.0",
+    "bluebird": "^3.5.3",
+    "date-fns": "2.0.0-alpha.25",
+    "date-fns-tz": "^1.0.3",
+    "dotenv": "^6.2.0"
+  }
 }
