@@ -52,7 +52,7 @@ function () {
   _createClass(OpenWeatherMapInfo, [{
     key: "parseTime",
     value: function parseTime(utcDateTime) {
-      return this.format(dateTime, 'BBBB p', {
+      return this.format(utcDateTime, 'BBBB p', {
         locale: this.language,
         timeZone: this.language.timeZone,
         awareOfUnicodeTokens: true
