@@ -1,7 +1,14 @@
 {
   "name": "@kuro-kuroite/mini-openweathermap",
   "version": "0.0.1-alpha.1",
-  "dependencies": {},
+  "dependencies": {
+    "@babel/polyfill": "^7.2.5",
+    "axios": "^0.18.0",
+    "bluebird": "^3.5.3",
+    "date-fns": "2.0.0-alpha.25",
+    "date-fns-tz": "^1.0.3",
+    "dotenv": "^6.2.0"
+  },
   "devDependencies": {
     "@babel/cli": "^7.2.0",
     "@babel/core": "^7.2.0",
