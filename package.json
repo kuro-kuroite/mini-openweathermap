@@ -1,6 +1,6 @@
 {
-  "name": "mini-openweathermap",
-  "version": "0.0.1",
+  "name": "@kuro-kuroite/mini-openweathermap",
+  "version": "0.0.1-alpha.1",
   "dependencies": {},
   "devDependencies": {
     "@babel/cli": "^7.2.0",
