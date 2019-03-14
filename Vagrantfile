@@ -28,7 +28,11 @@ Vagrant.configure("2") do |config|
   # Create a forwarded port mapping which allows access to a specific port
   # within the machine from a port on the host machine and only allow access
   # via 127.0.0.1 to disable public access
+<<<<<<< HEAD
   config.vm.network "forwarded_port", guest: 80, host: 8080, host_ip: "127.0.0.1"
+=======
+  # config.vm.network "forwarded_port", guest: 80, host: 8080, host_ip: "127.0.0.1"
+>>>>>>> 8a0c25ffaa1b5d1227cbe23acd16e6b1d24685dc
 
   # Create a private network, which allows host-only access to the machine
   # using a specific IP.
@@ -60,7 +64,9 @@ Vagrant.configure("2") do |config|
   # Puppet, Chef, Ansible, Salt, and Docker are also available. Please see the
   # documentation for more information about their specific syntax and use.
   config.vm.provision :shell, privileged: false, inline: <<-SHELL
-    sudo apt install -y python-software-properties software-properties-common
+    # for gyp-node
+    sudo apt install -y python-minimal
+
     sudo add-apt-repository ppa:git-core/ppa -y
     sudo apt update
     sudo apt upgrade

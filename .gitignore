@@ -8,6 +8,7 @@
 # Icon must end with two \r
 Icon
 
+
 # Thumbnails
 ._*
 
@@ -230,3 +231,13 @@ fabric.properties
 
 # for environment variables
 .env
+
+
+# for all project
+tmp
+
+
+# for deploy:sandbox
+sandbox
+
+
